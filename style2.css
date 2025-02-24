@@ -1,0 +1,51 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+     
+}
+h1{
+    text-align:center;
+    text-decoration:none;
+    background:black;
+    text-transform: initial;
+    color:white;
+}
+p{
+    font-style: italic;
+    font-size: larger;
+    color: white;
+}
+img{
+    display: flex;
+    align-items:right;
+    height:15px;
+}
+.contain{
+    color: aliceblue;
+    flex:5;
+    width:600px;
+    margin:0px 25px;
+}
+button{
+    margin: 0px 222px;
+        justify-content: center;
+        font-size: larger;
+        background-color:rgba(167, 137, 206, 0.877);
+       padding: 12px 30px;
+        border: none;
+        outline: none;
+        color:black;
+        cursor: pointer;
+        position: relative;
+       border-radius: 34px;
+    }
+    img{
+        flex:auto;
+        margin:0px 0px 0px ;
+    }
+    #button a{
+        text-decoration: none;
+        color:rgb(2, 19, 19);
+    }
+    
+    

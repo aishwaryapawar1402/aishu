@@ -1,0 +1,1 @@
+var ImageScrollUtils;(function(n){function t(n,t,i){function v(){e++;u-=h;e>=s&&(u=0,clearInterval(l));var n=a-u;e<=s-f&&(h=u/f);c?r.scrollTop=n:r.scrollLeft=n}var l;i===void 0&&(i=400);var o=16,s=i/o,f=5,h=n/f,e=0,r=t||_d.body,u=n,c=r.scrollHeight!==r.clientHeight,a=(c?r.scrollTop:r.scrollLeft)+n;l=setInterval(v,o)}n.smoothScroll=t})(ImageScrollUtils||(ImageScrollUtils={}))

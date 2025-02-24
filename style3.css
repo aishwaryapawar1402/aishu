@@ -1,0 +1,46 @@
+*{
+    background-color: rgb(240, 210, 215);
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height:250px;
+    width:400px;
+    border-radius: 10px ;
+margin:0px 450px;
+    box-shadow: 4px 4px 100px 4px brown;
+ background-image: url(./square1.png);
+ background-size: 400px;
+ background-repeat: no-repeat;
+ background-position: center center;
+ animation: slider 3s infinite;
+        
+}
+@keyframes slider{
+form { background-image: url(./square1.png);
+}
+to{ background-image: url(./square2photo.png);}
+}
+h1{
+    color: aquamarine;
+    text-align: center;
+    background-color: rgb(25, 17, 32);
+    background-size: 23px;
+}
+ .data li{
+    justify-content: space-between;
+    color: aquamarine;
+    align-items: end;
+    text-align: left;
+    margin:0px 355px 0px;
+    padding: 36px;
+     font-size: larger;
+    background-color:rgb(47, 39, 54); 
+}
+video{
+    float: right;
+    margin-left: 235px;
+    box-sizing: border-box;
+    height: 350px;
+}

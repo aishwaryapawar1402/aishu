@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.contact{
+    background-color: rgb(27, 97, 97);
+}
+h1{
+    background-color: rgb(235, 181, 111);
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    background-color: rgb(186, 186, 247);
+}
+iframe{
+    background-color: rgba(158, 152, 152, 0.541);
+    margin: 0px 350px;
+}
